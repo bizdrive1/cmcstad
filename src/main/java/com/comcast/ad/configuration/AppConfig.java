@@ -13,6 +13,5 @@ public class AppConfig {
 	public AdService getService() {
 		AdService adService = new AdServiceImpl();
 		return adService;
-	}
-	
+	}	
 }

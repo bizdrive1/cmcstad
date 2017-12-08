@@ -45,5 +45,7 @@ Storing campaign data in memory or a cookie is totally fine.
 A partner should be able to get their ad data by sending a GET request to the ad server at http://<host>/ad/<partner_id>.  
 Response can be delivered as a JSON object representing the active ad
 
+test
 
 If the current time is greater than a campaign's creation time + duration, then the server's response should be an error indicating that no active ad campaigns exist for the specified partner.
+
